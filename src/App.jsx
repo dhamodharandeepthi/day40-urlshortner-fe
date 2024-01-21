@@ -1,13 +1,11 @@
-import React from "react";
-import Navbar from "./component/Navbar/Navbar";
-import Container from "./component/Container/Container";
-import styles from "./App.module.css";
-
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 function App() {
   return (
-    <div className={styles.container}>
-      <Navbar />
-      <Container />
+    <div className="App">
+      <Home />
+      {/* <Footer /> */}
     </div>
   );
 }
